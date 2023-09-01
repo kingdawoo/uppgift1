@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <h1>Student Registration Form Using Table in HTML</h1><br>
+
+    <div class="form-box">
+        <form action="#" method="get">
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="Ghanendra" name="fname" id="fname"> (Max 50 Characters Allowed) <br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Yadav" name="lname" id="lname"> (Max 50 Characters Allowed) <br>
+
+            <label for="email">Email ID</label>
+            <input type="email" placeholder="yghanendra@gmail.com" name="email" id="email"> <br>
+
+            <label for="mnumber">Mobile Number</label>
+            <input type="text" placeholder="7842xxxxxx" name="mnumber" id="mnumber"> (10 Digits Allowed) <br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender">Male            
+            <input type="radio" name="genderf" id="genderf">Female <br>
+
+            <label for="dob-d">Date of Birth(DOB)</label>
+            <select name="dob-d" id="dob-d">
+                <option value="0">Day:</option>
+                <option value="29">29</option>
+            </select>
+            <select name="dob-m" id="dob-m">
+                <option value="0">Month:</option>
+                <option value="4">04</option>
+            </select>
+            <select name="dob-y" id="dob-y">
+                <option value="0">Year:</option>
+                <option value="2004">2004</option>
+            </select><br>
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+
+            <label for="qual">Qualifications</label>
+            <input type="checkbox" name="qual" id="qual">High School
+            <input type="checkbox" name="qual1" id="qual1">Middle School
+            <input type="checkbox" name="qual2" id="qual2">Low School <br>
+
+            <label for="extra">Extra input</label>
+            <input type="date" name="extra" id="extra"><br>
+
+            <label for="morextra">Extra input</label>
+            <input type="number" name="morextra" id="morextra" placeholder="number input">
+
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.master {
+    display: flex;
+    justify-content: space-around;
+}
+
+li, dt, dd {
+    padding: 5px;
+}

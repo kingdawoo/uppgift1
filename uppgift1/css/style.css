@@ -1,0 +1,22 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('../img/abstract.webp');
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    text-shadow: white 1px 0 10px;
+}
+
+a:hover {
+    color: blue;
+}
